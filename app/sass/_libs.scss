@@ -62,6 +62,7 @@
       transform: rotate(45deg) translate(-2px, -1px);
       background: #232323;
 
+
       &:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
@@ -80,8 +81,9 @@
 }
 
 .menuItem {
+  // overflow-y: auto;
   position: absolute;
-  height: 100vh;
+  height: 120vh;
   min-width: 70vh;
   padding: 50px;
   padding-top: 125px;

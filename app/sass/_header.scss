@@ -99,14 +99,14 @@
   &__form-input {
     // display: inline-block;
     padding: 10px 0;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid var(--red);
     margin-bottom: 20px;
     width: 320px;
   }
 
   &__btn {
     width: 200px;
-    background: red;
+    background: var(--red);
     padding: 10px 20px;
     border-radius: 10px;
     color: var(--bg);
