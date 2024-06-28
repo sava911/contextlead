@@ -20,9 +20,10 @@
     width: 40px;
     height: 40px;
     background-size: contain;
-    position: absolute;
-    left: 350px;
-    top: 60px;
+    margin-bottom: 20px;
+    // position: absolute;
+    // left: 350px;
+    // top: 60px;
 
   }
 
@@ -106,7 +107,7 @@
   &__btn {
     width: 200px;
     background: red;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     color: var(--bg);
     font-weight: 700;
@@ -119,12 +120,21 @@
 .btn {}
 
 @media (max-width: 700px) {
-  .vbp-header-menu-button__svg {
+  .container {
+    padding: 0 15px;
+  }
+
+  .menu--left {
     display: block;
   }
 
   .header__logo,
   .header__nav {
     display: none;
+  }
+
+  .header__icons {
+
+    gap: 10px;
   }
 }
