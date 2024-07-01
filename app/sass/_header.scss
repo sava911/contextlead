@@ -1,6 +1,12 @@
 .header {
 
-  background-color: yellow;
+  background-color: var(--blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  color: var(--bg);
 
   &__inner {
     height: 80px;
@@ -9,10 +15,17 @@
     align-items: center;
   }
 
+  &__logo-inner {
+    background: var(--title);
+    backdrop-filter: blur(15px);
+    padding: 10px;
+  }
+
   &__logo {
     width: 100px;
     height: 80px;
     background-size: contain;
+
 
   }
 
@@ -35,7 +48,8 @@
   }
 
   &__lists {
-    background: var(--item);
+    background: var(--title);
+    backdrop-filter: blur(15px);
     border-radius: 5px;
     padding: 5px;
     display: flex;
@@ -55,7 +69,8 @@
   }
 
   &__icon-link {
-    background: var(--item);
+    background: var(--title);
+    backdrop-filter: blur(15px);
     border-radius: 5px;
     display: flex;
     align-items: center;
