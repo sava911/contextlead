@@ -64,12 +64,12 @@ $(function () {
 
     $('.fade').slick({
       dots: false,
-      infinite: true,
+      infinite: false,
       autoplay: true,
-      speed: 1500,
+      speed: 1200,
       // fade: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      // slidesToShow: 1,
+      // slidesToScroll: 1,
       cssEase: 'linear'
     });
   }
