@@ -63,10 +63,13 @@ $(function () {
 
 
     $('.fade').slick({
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 500,
-      fade: true,
+      autoplay: true,
+      speed: 1500,
+      // fade: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       cssEase: 'linear'
     });
   }

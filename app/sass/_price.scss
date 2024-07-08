@@ -69,10 +69,53 @@
   &__item-text {}
 }
 
+.price .slick-arrow {
+  position: absolute;
+  // top: 50%;
+  bottom: -60px;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  // background-color: var(--red);
+}
+
+.price .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../images/icons/left-arrow.svg") 0 0 / 100% no-repeat;
+}
+
+.price .slick-arrow.slick-next {
+  right: 0;
+  transform: rotate(180deg);
+  background: url("../images/icons/left-arrow.svg") 0 0 / 100% no-repeat;
+}
+
+.price .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.price .slick-list {
+  margin: 0 -15px;
+}
+
+.price .slick-slide {
+  margin: 0 15px;
+}
+
+
+
+.price__item img {
+  max-width: 100%;
+}
+
+
 @media (max-width: 750px) {
   .price__items {
 
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
 }
